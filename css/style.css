@@ -5,6 +5,10 @@
  width: 50%;
  height: 500px;
 }
+.just {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .arrows{
     color: royalblue;
 }
