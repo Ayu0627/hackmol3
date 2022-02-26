@@ -2,9 +2,25 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>College Buddy</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title >College Buddy</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Allura&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster+Two:ital,wght@1,400;1,700&family=Oleo+Script&family=Syne+Tactile&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <!-- font awesome -->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 
@@ -13,9 +29,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- favicon -->
-     <link rel= "icon" href="https://user-images.githubusercontent.com/93918423/154435368-0de456eb-07b4-449d-b5fc-6347b71173dd.png"> <!--add favicon here -->
+     <link rel= "icon" href="images/logo.png"> <!--add favicon here -->
 
     <!-- bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -26,30 +42,35 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body >
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid header">
             <div>
-                <h1 class="navbar-brand">College Buddy</h1>
+                <h1 class="navbar-brand   colorblue" >College Buddy</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-
+            <img src="images/logo.png" alt="this is logo" height="50px" width="50px">
             <div class="collapse navbar-collapse options" id="navbarTogglerDemo02 ">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="https://fanzvhaxubchgnizklcb.supabase.co/auth/v1/authorize?provider=google">Sign In</a>
+                        <a class="nav-link" aria-current="page" href=" ">SIGN IN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="nav-link" href=" ">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=" ">Feedback</a>
+                        <a class="nav-link" href="#contact">CONTACT US</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href=" ">FEEDBACK</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -67,18 +88,18 @@
             <div class="carousel-inner">
                 <!-- copy line 69 to 73 to add more scrolling images. and change these two images/description  -->
                 <div class="carousel-item active">
-                    <h2>Convocation</h2>
-                    <img class="s-images" src="images/a.jpeg" alt="NITJ images"><br>
- 
-                </div>                
-                <div class="carousel-item">
-                    <h2>Students</h2>
-                    <img class="s-images" src="images/c.jpeg" alt="NITJ images"><br>
+                    <h2 id="fontchanges" > Main Campus </h2>
+                    <img class="s-images" src="images/main campus.jpg" alt="NITJ images"><br>
 
                 </div>
                 <div class="carousel-item">
-                    <h2>Main Campus</h2>
-                    <img class="s-images" src="images/b.jpeg" alt="college"><br>
+                    <h2 id="fontchanges"> Convocation </h2>
+                    <img class="s-images" src="images/nitj.jpg" alt="college"><br>
+
+                </div>
+                <div class="carousel-item">
+                    <h2 id="fontchanges"> Students </h2>
+                    <img class="s-images" src="images/covocation.jpg" alt="college"><br>
 
                 </div>
             </div>
@@ -91,17 +112,21 @@
         </div>
     </section>
  <!-- description -->
-<section id="description">
-  Having trouble managing your college work like to dos, assignments, notices etc. by different softwares, CollegeBuddy brings all to the one place from your time table to managing your assignment work CollegeBuddy has it all. Teachers can maintain record generate results of student upload their timetable and can check student performance. Students can see their results uploaded by their teachers and upload their assignments. It will also show growth report in overall semester of a student. It also has a To-Do list function to manage all your daily works for both teacher and student.
+ <div id="named" > Description</div>
+<section id="description" class="lapbg">
+    <p>Having trouble managing your college work like to dos, assignments, notices etc. by different softwares, CollegeBuddy brings all to the one place from your time table to managing your assignment work CollegeBuddy has it all. Teachers can maintain record generate results of student upload their timetable and can check student performance. Students can see their results uploaded by their teachers and upload their assignments. It will also show growth report in overall semester of a student. It also has a To-Do list function to manage all your daily works for both teacher and student.</p>
+  <!-- add description here.  -->
 </section>
-
+<hr id="dotted">
     <!-- contact us -->
     <section id="contact">
         <div class="row">
-            <div class="col col-lg-12">
-                <h2>Contact Details</h2>
+            <div id="contactd" class="col col-lg-12">
+                <h2>CONTACT DETAILS</h2>
                 <em>Contact us to know more</em>
             </div>
+            <br>
+            <hr>
             <div class="container-fluid">
                 <div class="card header" style="width: 18rem;">
                     <img class="card-img-top p-image" src="images/ajay.jpg" alt="Card image cap">
@@ -119,10 +144,10 @@
                     </div>
                 </div>
                 <div class="card header" style="width: 18rem;">
-                    <img class="card-img-top p-image" src="images/ayushim.jpg" alt="Card image cap">
+                    <img class="card-img-top p-image" src="images/lapbg.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Ayushi M</h5>
-                        <a href="mailto:ayushi.it.21@nitj.ac.in"><em class="card-text">ayushi.cs.21@nitj.ac.in</em></a>
+                        <a href="mailto:ayushi.cs.21@nitj.ac.in"><em class="card-text">ayushi.cs.21@nitj.ac.in</em></a>
                     </div>
                 </div>
                 <div class="card header" style="width: 18rem;">
@@ -152,7 +177,7 @@
     <i class="fab fa-facebook ficon"></i>
     <i class="fab fa-instagram-square ficon"></i>
     <i class="fas fa-envelope ficon"></i><br>
-    <em>© Copyright EasyCoders</em>
+    <em>© Copyright Debuggers</em>
 
 </footer>
 
